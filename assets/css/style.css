@@ -1,0 +1,104 @@
+* {
+  background-color: teal lighten-5;
+}
+/* body {
+  min-height: 100vh;
+} */
+
+.logo {
+  font-weight: 600;
+  padding-left: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: antiquewhite;
+}
+
+.thin-text {
+  font-weight: 300;
+  background: rgba(96, 125, 139, 0.4);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* footer */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* .footer {
+  background: #111;
+  color: var(--clr-accent);
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: var(--fs-h3);
+} */
+.footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-weight: var(--fw-bold);
+}
+
+.footer__link:hover,
+.social-link__link:hover {
+  opacity: 0.7;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-links__item {
+  margin: 0 0.5em;
+}
+
+.social-links__link {
+  padding: 0.5em;
+}
+
+.about {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  color: teal;
+}
+
+span {
+  color: black;
+  font-weight: 800;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: 500;
+}
+
+li {
+  font-size: 30px;
+}
+
+.right {
+  color: aqua;
+}
